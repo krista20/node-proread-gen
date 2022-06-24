@@ -12,6 +12,31 @@ const questions = [
      },
      {
         type: 'input',
+        name: 'description',
+        message: "What is the description for your project?",
+     },
+     {
+        type: 'input',
+        name: 'installation',
+        message: "What are the installation instructions for your project?",
+     },
+     {
+        type: 'input',
+        name: 'usage',
+        message: "What is the usage information?",
+     },
+     {
+        type: 'input',
+        name: 'contribution',
+        message: "What are the contribution guidelines?",
+     },
+     {
+        type: 'input',
+        name: 'test instructions',
+        message: "What are the test instructions?",
+     },
+     {
+        type: 'input',
         name: 'username',
         message: "What is your GitHub username?",
      },
@@ -20,22 +45,7 @@ const questions = [
         name: 'email',
         message: "What is your email address?",
      }
-    // // title of project
-    // "What is the title of your project?",
-    // // Info added to: Description, Installation, Usage, Contributing, & Tests
-    // "Enter a description for your project.",
-    // "Enter installation instructions",
-    // "Enter usage information",
-    // "Enter contribution guidelines",
-    // "Enter test instructions",
-  
-    // // Questions Section: for GitHub username link
-    // "Enter your GitHub username",
-    // "Enter your email address"
-
 ];
-
-
 
 // TODO: Create a function to initialize app
 function init() {
