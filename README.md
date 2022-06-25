@@ -1,22 +1,28 @@
 # README
- 
-  This is the description of my project
+
+  ## Description:
+  This professional README.md was created in order to demonstrate how to create and test a README.md in the terminal or console. It shows how to preview it before pushing it to GitHub
+  
   ## Table of Contents:
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contribution](contribution)
-    * [Questions](#questions)
+    - Installation
+    - Usage
+    - License
+    - Contribution
+    - Questions
+  
   ### Installation:
-    To install the dependencies needed, use the terminal and run the following:
-  ```Follow these steps to install```
+    If not done so already, please install the dependencies needed in order to create a
+    professional README.md by following the below requirements:
+  Node js needs to be installed. Run npm init, to get required dependencies. Install inquirer by running npm install inquirer. Require the fs module in your VS Code. 
   ### Usage:
-  This is the usage information
+  The intent of usage for this README is to explain the application's what, why, and how.
+  ### License:
+  None
   ### Contribution:
-  No contributors  
+  There are no contributions.  
   ### Tests:
-  These are the test instructions
+  Test the application in the terminal or console.
   ### Questions: 
-   GitHub link: Kris20  
-  For any questions, please reach out to me at krista@info.com
+  GitHub link: Kris20  
+  For any questions, please reach out to me at kriscookies20@gmail.com
   
