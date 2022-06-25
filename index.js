@@ -26,13 +26,20 @@ const questions = [
         message: "What is the usage information?",
      },
      {
+        type: 'list',
+        name: 'license',
+        message: "Which license(s) does your project have?",
+        choices: ["IBM Public License Version 1.0", "Mozilla", 
+        "Open Database License (ODbL)", "None"]
+     },
+     {
         type: 'input',
         name: 'contribution',
         message: "What are the contribution guidelines?",
      },
      {
         type: 'input',
-        name: 'test instructions',
+        name: 'test',
         message: "What are the test instructions?",
      },
      {
@@ -58,7 +65,7 @@ function init() {
                 // throw or to return
                 throw err
             } else {
-                console.log("file create successfully")
+                console.log("file created successfully")
             }
         })
         console.log(template);
