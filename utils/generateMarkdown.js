@@ -51,11 +51,27 @@ function generateMarkdown(data) {
   ${data.installation}
   ### Usage:
   ${data.usage}
+  
+  Please reference below:
+
+  Install Node:
+  https://nodejs.dev/download/
+  ![](/assets/images/install_node.png)
+
+  Install & Require Inquirer:
+  https://www.npmjs.com/package/inquirer
+  ![](/assets/images/install_inquirer.png)
+  ![](/assets/images/require_inquirer.png)
+
+  Require fs module:
+  https://nodejs.dev/learn/the-nodejs-fs-module
+  ![](/assets/images/node.js_fs_module.png)
+
   ### License:
   ${data.license}
   ### Contribution:
   ${data.contribution}  
-  ### Tests:
+  ### Test:
   ${data.test}
   ### Questions: 
   GitHub link: ${data.username}  
