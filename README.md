@@ -1,9 +1,9 @@
-# dsfasd
+# adas
 
 
 
   ## Description:
-  fsa
+  da
   
   ## Table of Contents:
     - Installation
@@ -15,9 +15,9 @@
   ### Installation:
     If not done so already, please install the dependencies needed in order to create a
     professional README.md by following the below requirements:
-  dfds
+  sdas
   ### Usage:
-  f
+  das
 
   Please reference below:
 
@@ -35,16 +35,12 @@
   ![](/assets/images/node.js_fs_module.png)
 
   ### License:
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-  [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)
-
   IBM Public License Version 1.0
   ### Contribution:
-  dsf  
+  dadsd  
   ### Test:
-  dsf
+  ad
   ### Questions: 
-  GitHub link: dsffdsa  
-  For any questions, please reach out to me at d
+  GitHub link: asd  
+  For any questions, please reach out to me at asdas
   
