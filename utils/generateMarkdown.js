@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
   // badgeTwo = "Mozilla";
   // badgeThree = "Open Database License (ODbL)";
   license = ["IBM Public License Version 1.0", "Mozilla", 
-  "Open Database License (ODbL), None"];
+  "Open Database License (ODbL)"];
   if (license[0] === badgeOne) 
   {
     return badgeOne
@@ -29,9 +29,9 @@ function renderLicenseLink(license) {
   if(license[2] === badgeThree) {
     return badgeThree;
   }
-  if(license[3] !== badgeOne || badgeTwo || badgeThree) {
-    return license[3];
-  }
+  if(license !== badgeOne || badgeTwo || badgeThree) {
+    return "";
+  };
 
   // badgeOne = `${data.choices[0]}`;
   // badgeTwo = `${data.choices[1]}`;
@@ -57,7 +57,7 @@ function generateMarkdown(data) {
   renderLicenseLink(data.license);
   return `# ${data.title}
 
-  ${data.license.choices}
+  ${data.license}
 
   ## Description:
   ${data.description}

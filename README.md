@@ -1,9 +1,9 @@
-# 
+# rrr
 
-  undefined
+  IBM Public License Version 1.0
 
   ## Description:
-  aa
+  rrr
   
   ## Table of Contents:
     - Installation
@@ -15,9 +15,9 @@
   ### Installation:
     If not done so already, please install the dependencies needed in order to create a
     professional README.md by following the below requirements:
-  aa
+  rr
   ### Usage:
-  aa
+  r
 
   Please reference below:
 
@@ -35,12 +35,12 @@
   ![](/assets/images/node.js_fs_module.png)
 
   ### License:
-  Open Database License (ODbL)
+  IBM Public License Version 1.0
   ### Contribution:
-  aaa  
+  rr  
   ### Test:
-  aa
+  rr
   ### Questions: 
-  GitHub link: a  
-  For any questions, please reach out to me at a
+  GitHub link: rr  
+  For any questions, please reach out to me at rr
   
