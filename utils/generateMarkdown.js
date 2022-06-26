@@ -14,16 +14,36 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  badgeOne = `${data.choices[0]}`;
-  badgeTwo = `${data.choices[1]}`;
-  badgeThree = `${data.choices[2]}`;
-  license = `${data.choices[0, 1, 2, 3]}`;
-  if (`${data.license}` != `${data.choices[0, 1, 2]}`) {
-    return " "
+  // badgeOne = "IBM Public License Version 1.0";
+  // badgeTwo = "Mozilla";
+  // badgeThree = "Open Database License (ODbL)";
+  license = ["IBM Public License Version 1.0", "Mozilla", 
+  "Open Database License (ODbL), None"];
+  if (license[0] === badgeOne) 
+  {
+    return badgeOne
   } 
-  if(`${data.license}` === badgeOne || badgeTwo || badgeThree) {
-    
+  if(license[1] === badgeTwo) {
+    return badgeTwo;
   }
+  if(license[2] === badgeThree) {
+    return badgeThree;
+  }
+  if(license[3] !== badgeOne || badgeTwo || badgeThree) {
+    return license[3];
+  }
+
+  // badgeOne = `${data.choices[0]}`;
+  // badgeTwo = `${data.choices[1]}`;
+  // badgeThree = `${data.choices[2]}`;
+  // license = `${data.choices[0, 1, 2, 3]}`;
+  // if (`${data.license}` != `${data.choices[0, 1, 2]}`) 
+  // {
+  //   return " "
+  // } 
+  // if(`${data.license}` === badgeOne || badgeTwo || badgeThree) {
+    
+  // }
 };
 
 // TODO: Create a function that returns the license section of README
@@ -34,9 +54,10 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  renderLicenseLink(data.license);
   return `# ${data.title}
 
-
+  ${data.license.choices}
 
   ## Description:
   ${data.description}
