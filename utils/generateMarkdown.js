@@ -1,6 +1,7 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-
+// This is how the badge image will show, depending on what the user chooses. 
+// ${badge} in the return displays the choice.
   let badge = "";
   if(data.license === "IBM Public License Version 1.0") {
     badge = "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)"
