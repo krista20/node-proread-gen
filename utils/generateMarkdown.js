@@ -17,18 +17,18 @@ function generateMarkdown(data) {
   ## Description:
   ${data.description}
   
-  ## Table of Contents:
-    - Installation
-    - Usage
-    - License
-    - Contribution
-    - Questions
+  # Table of Contents:
+  * [Installation:](#installation:)
+  * [Usage:](#usage)
+  * [License:](#license)
+  * [Contribution:](#contribution)
+  * [Questions:](#questions)
   
   ### Installation:
     If not done so already, please install the dependencies needed in order to create a
     professional README.md by following the below requirements:
   ${data.installation}
-  ### Usage:
+  ## Usage:
   ${data.usage}
 
   Please reference below:
@@ -46,13 +46,15 @@ function generateMarkdown(data) {
   https://nodejs.dev/learn/the-nodejs-fs-module
   ![](/assets/images/node.js_fs_module.png)
 
-  ### License:
+
+  ## License:
+  This license is covered under:
   ${data.license}
-  ### Contribution:
+  ## Contribution:
   ${data.contribution}  
-  ### Test:
+  ## Test:
   ${data.test}
-  ### Questions: 
+  ## Questions: 
   GitHub link: ${data.username}  
   For any questions, please reach out to me at ${data.email}
   `;}
